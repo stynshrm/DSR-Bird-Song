@@ -41,7 +41,12 @@ We build the following [models](birdsong/models):
 * [Sparrow](birdsong/models/sparrow.py): [(Grill & Schlüter, 2017)](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570347092.pdf)
 * [SparrowExp](birdsong/models/sparrow_exp_a.py): [(Schlüter, 2018)](http://www.ofai.at/~jan.schlueter/pubs/2018_birdclef.pdf)
 * [Zipzalp](birdsong/models/zilpzalp.py): own creation by Tim 
-
+* [lstm](birdsong/models/lstm.py): created by Satyan
+* [Eagle](birdsong/models/eagle.py): created by Satyan
+* [Goose](birdsong/models/goose.py): created by Satyan
+* [Robin](birdsong/models/robin.py): created by Satyan
+* [Owl](birdsong/models/owl.py): created by Satyan
+* [Pigeon](birdsong/models/pigeon.py): created by Satyan
 
 ## Model training
 Configure your run in scripts/config.py
