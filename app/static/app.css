@@ -1,0 +1,99 @@
+body {
+    align-content: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: #363946;
+}
+
+h1, p, button {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+div#recording {
+    min-height: 50px;
+}
+
+div#info {
+    min-height: 30px;
+    font-size: 12px;
+}
+
+div.warn {
+    color: red;
+}
+
+div#connection {
+    min-height: 30px;
+    color: red;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+img#bird_image {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+button {
+    outline: none;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #525f7f;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    transition: all .15s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+button.primary {
+    border: none;
+    color: white;
+    background-color: 3ecf8e;
+}
+
+button.secondary {
+    border: none;
+    /* border-color: 3ecf8e;
+    border-width: 2px;
+    color: black; */
+    background-color: white;
+}
+
+ul {
+    max-width: 300px;
+    list-style-type: square;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+li {
+    text-align: left;
+}
+
+div#footer {
+    font-size: 10px;
+}
+
+p#img_source {
+    margin-top: 5px;
+    font-size: 10px;
+}

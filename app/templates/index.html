@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Find the bird!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="icon" href="static/favicon.png"/>
+
+  <link href="../static/app.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137363824-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137363824-1');
+  </script>
+
+</head>
+<body>
+  <div id='container'>
+    <h1>Who's chirping?</h1>
+    <p>Record at least 5 seconds of sound and click submit to see which bird is making the sound!</p>
+    <div id='recording'></div>
+    <div id='info'></div>
+    <div id='actions'>
+      <button id='record' class='primary'>Record</button>
+      <button id='classify' class='primary' disabled hidden=true>Submit</button>
+    </div>
+    <div id='connection'></div>
+    <div id='response'>
+      <p id='species'></p>
+      <a id='wiki_link' target="_blank">
+        <img id='bird_image' hidden=true>
+      </a>
+      <p id='img_source' hidden=true>source: Wikipedia (<a id='bird_link' target="_blank">license</a>) </p>
+    </div>
+    <div id='footer'>
+      <p>See our <a href='https://github.com/multavici/DSR-Bird-Song'>github</a> for more information about the project. Data kindly provided by <a href='https://www.xeno-canto.org/'>xeno-canto.org</a></p>
+    </div>
+    <script src="../static/app.js"></script>
+  </div>
+</body>
+</html>
