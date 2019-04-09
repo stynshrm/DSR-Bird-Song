@@ -47,6 +47,8 @@ We build the following [models](birdsong/models):
 * [Robin](birdsong/models/robin.py): created by Satyan
 * [Owl](birdsong/models/owl.py): created by Satyan
 * [Pigeon](birdsong/models/pigeon.py): created by Satyan
+* [Hawk](birdsong/models/hawk.py): created by Satyan - pytorch implementation of [(Pons et.al., 2018)]
+(https://arxiv.org/abs/1711.02520?context=eess)
 
 ## Model training
 Configure your run in scripts/config.py
